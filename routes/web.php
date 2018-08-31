@@ -11,6 +11,12 @@
 |
 */
 
+/*
 Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    return
 });
+*/
+
+Route::get('/', 'ContactController@home');
+Route::post('/thankyou', 'ContactController@post');

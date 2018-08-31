@@ -1,0 +1,37 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+input[type="text"], textarea {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 10px;
+}
+
+div.center {
+    margin: auto;
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.w-91 {
+    width: 91% !important;
+}
+
+#last-name, #phone {
+    margin-left: 10px;
+}
